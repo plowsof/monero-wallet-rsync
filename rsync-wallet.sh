@@ -7,5 +7,6 @@ sudo rsync -a $dir_r_wallet $dir_wallet
 user=$(sudo stat -c "%U" /data/data/com.m2049r.xmrwallet/files/monero)
 echo $dir_wallet
 sudo chown -R ${user}:${user} $dir_wallet
-#start monerujo (todo: find correct name)
-#am start --user 0 -n com.termux/com.termux.app.TermuxActivity
+#start monerujo 
+#https://github.com/m2049r/xmrwallet/blob/9ed92e51175338d958e910d600a34f0a0178d483/app/src/main/AndroidManifest.xml#L24
+am start --user 0 -n com.m2049r.xmrwallet/com.m2049r.xmrwallet.MainActivity
