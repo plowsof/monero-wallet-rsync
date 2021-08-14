@@ -8,6 +8,6 @@ This is for people who:
 - Who also have a restricted rpc-wallet running on it which is autosaved (e.g. every 10 minutes)
 - That wish to access the wallet on a mobile device
 
-##issues
+#issues
 
 Data will be lost such as recipient address after making a payment on the mobile device when you rsync the files 
