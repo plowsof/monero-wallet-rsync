@@ -10,4 +10,8 @@ This is for people who:
 
 # issues
 
-Data will be lost such as recipient address after making a payment on the mobile device when you rsync the files 
+Data will be lost such as recipient address after making a payment on the mobile device when you rsync the files e.g:
+- Alice clicks the widget to sync the wallet files
+- Who then makes a payment to Bob.
+- After a long period of inactivity, Alice clicks the widget to use the wallet instantly
+- Alice will see the payment to 'Unknown' instead of 'Bob'  
