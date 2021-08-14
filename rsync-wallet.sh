@@ -2,7 +2,8 @@ dir_monerujo=/data/data/com.m2049r.xmrwallet/files/wallets
 dir_wallet=$dir_monerujo
 dir_r_wallet=root@eeebox:/var/log/monero/wallets/general-fund/
 #sync the wallet files
-#nikg83 fixed a bug where unless --update is used - the new cache will be overwritten with the old one on the remote node
+#it appears that information will be lost unless changes are uploaded back to the server.
+#as it is stored in the wallet file
 sudo rsync -au $dir_r_wallet $dir_wallet
 #get the owner of 'monero' folder to set file ownerships correctly
 user=$(sudo stat -c "%U" /data/data/com.m2049r.xmrwallet/files/monero)
