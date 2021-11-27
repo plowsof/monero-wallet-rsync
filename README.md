@@ -40,3 +40,6 @@ Data will be lost such as recipient address after making a payment on the mobile
 - Alice will see the payment to 'Unknown' instead of 'Bob'  
 
 - although copying a voew only wallet file to a 'hot wallet' works - i expect there to be errors with the balance displayed (e.g. returning change output displayed wrongly. The wallet would have to be pushed back to the remote location but this could get complicated for mobile. 
+
+# what 'should' hapoen:
+- rsync pull view only wallet file
