@@ -38,3 +38,5 @@ Data will be lost such as recipient address after making a payment on the mobile
 - Who then makes a payment to Bob.
 - After a long period of inactivity, Alice clicks the widget to use the wallet instantly
 - Alice will see the payment to 'Unknown' instead of 'Bob'  
+
+- although copying a voew only wallet file to a 'hot wallet' works - i expect there to be errors with the balance displayed (e.g. returning change output displayed wrongly. The wallet would have to be pushed back to the remote location but this could get complicated for mobile. 
