@@ -43,3 +43,8 @@ Data will be lost such as recipient address after making a payment on the mobile
 
 # what 'should' hapoen:
 - rsync pull view only wallet file
+- spend xmr
+- close hot wallet 
+- rpc stop view wallet
+- rsync push hot wallet to view only
+- rpc start view wallet
